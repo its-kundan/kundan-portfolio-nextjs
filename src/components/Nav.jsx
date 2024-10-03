@@ -153,10 +153,16 @@ const Navbar = () => {
               Skills
             </Link>
             <Link
-              href="#resume"
+              href="/100days"
               className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Resume
+              100Days
+            </Link>
+            <Link
+              href="#profiles"
+              className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Coding Profiles
             </Link>
             <Link
               href="#contact"
@@ -170,7 +176,9 @@ const Navbar = () => {
             >
               Achievements
             </Link>
+
           </div>
+          
         </div>
       )}
     </nav>

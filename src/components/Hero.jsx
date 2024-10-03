@@ -30,14 +30,15 @@ const Hero = () => {
 
         {/* Right Side - Image */}
         <div className="md:w-1/2 flex justify-center">
-          <Image
-            src="/hero.jpg"  // Correct path for Next.js public folder
-            alt="Kundan Kumar"
-            width={400}
-            height={400}
-            className="rounded-lg"
-          />
-        </div>
+  <Image
+    src="/images/hero.jpg"  // Correct path for Next.js public folder
+    alt="Kundan Kumar"
+    width={400}
+    height={400}
+    className="rounded-lg border border-white border-opacity-30" // Adjusted border opacity
+  />
+</div>
+
       </div>
     </section>
   );

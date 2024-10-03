@@ -43,8 +43,12 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="cc">
-        all rights reseved by Kundan  Kumar.
+
+      {/* Copyright Section */}
+      <div className="text-center mt-6">
+        <p className="text-sm">
+          © {new Date().getFullYear()} All rights reserved by Kundan Kumar.
+        </p>
       </div>
     </footer>
   );

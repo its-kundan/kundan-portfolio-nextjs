@@ -9,12 +9,12 @@ const SocialMediaIcons = () => {
           href="https://twitter.com/kundan_k_"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-gray-800 dark:text-white neon-glow hover:text-blue-400 transition-transform transform hover:scale-110"
+          className="block text-blue-600 hover:text-blue-400 transition-transform transform hover:scale-110"
         >
           <FaTwitter size={30} />
         </a>
         {/* Tooltip */}
-        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-blue-400">
+        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-white">
           Twitter
         </span>
       </div>
@@ -25,12 +25,12 @@ const SocialMediaIcons = () => {
           href="https://github.com/its-kundan"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-gray-800 dark:text-white neon-glow hover:text-gray-600 transition-transform transform hover:scale-110"
+          className="block text-gray-800 hover:text-gray-600 transition-transform transform hover:scale-110"
         >
           <FaGithub size={30} />
         </a>
         {/* Tooltip */}
-        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-gray-600">
+        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-white">
           GitHub
         </span>
       </div>
@@ -41,12 +41,12 @@ const SocialMediaIcons = () => {
           href="https://www.linkedin.com/in/its-kundan/"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-gray-800 dark:text-white neon-glow hover:text-blue-600 transition-transform transform hover:scale-110"
+          className="block text-blue-600 hover:text-blue-500 transition-transform transform hover:scale-110"
         >
           <FaLinkedin size={30} />
         </a>
         {/* Tooltip */}
-        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-blue-600">
+        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-white">
           LinkedIn
         </span>
       </div>
@@ -57,12 +57,12 @@ const SocialMediaIcons = () => {
           href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-gray-800 dark:text-white neon-glow hover:text-red-600 transition-transform transform hover:scale-110"
+          className="block text-red-600 hover:text-red-500 transition-transform transform hover:scale-110"
         >
           <FaYoutube size={30} />
         </a>
         {/* Tooltip */}
-        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-red-600">
+        <span className="absolute right-10 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-black text-xs rounded-md py-1 px-2 transition-opacity duration-300 text-white">
           YouTube
         </span>
       </div>
