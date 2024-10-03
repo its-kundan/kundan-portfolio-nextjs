@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Project One",
+      "description": "This is a description for project one.",
+      "image": "/path/to/your/image1.jpg", 
+      "liveLink": "https://example.com/live1",
+      "githubLink": "https://github.com/yourusername/project1"
+    },
+    {
+      "id": 2,
+      "name": "Project Two",
+      "description": "This is a description for project two.",
+      "image": "/path/to/your/image2.jpg",
+      "liveLink": "https://example.com/live2",
+      "githubLink": "https://github.com/yourusername/project2"
+    }
+  ]
+  
