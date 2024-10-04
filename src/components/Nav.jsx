@@ -1,8 +1,8 @@
-'use client';
-import { useEffect, useState, useRef } from 'react';
-import Link from 'next/link';
-import { HiMenu, HiX } from 'react-icons/hi';
-import { FaSun, FaMoon } from 'react-icons/fa';
+"use client";
+import { useEffect, useState, useRef } from "react";
+import Link from "next/link";
+import { HiMenu, HiX } from "react-icons/hi";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +22,9 @@ const Navbar = () => {
   // Apply/remove dark class to html tag on theme change
   useEffect(() => {
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
 
@@ -37,14 +37,14 @@ const Navbar = () => {
     };
 
     if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     } else {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     }
 
     // Cleanup event listener when component unmounts or when menu closes
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isOpen]);
 
@@ -54,7 +54,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-800 dark:text-white">
+            <Link
+              href="/"
+              className="text-2xl font-bold text-gray-800 dark:text-white"
+            >
               Portfolio
             </Link>
           </div>
@@ -88,10 +91,10 @@ const Navbar = () => {
               Skills
             </Link>
             <Link
-              href="#resume"
+              href="#hundred"
               className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Resume
+              #100DaysOfCode
             </Link>
             <Link
               href="#contact"
@@ -153,17 +156,12 @@ const Navbar = () => {
               Skills
             </Link>
             <Link
-              href="/100days"
+              href="#hundred"
               className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
             >
-              100Days
+              #100DaysOfCode
             </Link>
-            <Link
-              href="#profiles"
-              className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Coding Profiles
-            </Link>
+
             <Link
               href="#contact"
               className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
@@ -176,9 +174,7 @@ const Navbar = () => {
             >
               Achievements
             </Link>
-
           </div>
-          
         </div>
       )}
     </nav>

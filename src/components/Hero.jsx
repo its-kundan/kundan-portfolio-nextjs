@@ -1,4 +1,7 @@
+'use client'; // Add this line at the top
+
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -6,39 +9,59 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
         {/* Left Side - Text */}
         <div className="md:w-1/2 mb-10 md:mb-0">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="text-5xl md:text-6xl font-bold text-gray-900"
+          >
             I&apos;m <span className="text-blue-600">Kundan Kumar</span>
-          </h1>
-          <h2 className="text-2xl md:text-3xl mt-4 text-gray-700">
-            A Web Developer from India
-          </h2>
+          </motion.h1>
+          <motion.h2
+            initial={{ x: -100 }}
+            animate={{ x: 0 }}
+            transition={{ type: 'spring', stiffness: 120 }}
+            className="text-2xl md:text-3xl mt-4 text-gray-700"
+          >
+            A passionate web developer skilled in modern web technologies, aiming to build impactful digital experiences.
+          </motion.h2>
 
           {/* Buttons Section */}
-          <div className="mt-6 flex space-x-4">
+          <div className="mt-6 flex space-x-4 justify-start">
             <a href="https://drive.google.com/file/d/16GlhniYCCMKEcTJ2hPp1BuwI6AoihzR3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-200">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-200"
+              >
                 Resume
-              </button>
+              </motion.button>
             </a>
             <a href="#contact">
-              <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-200">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-200"
+              >
                 Hire Me
-              </button>
+              </motion.button>
             </a>
           </div>
         </div>
 
         {/* Right Side - Image */}
-        <div className="md:w-1/2 flex justify-center">
-  <Image
-    src="/images/hero.jpg"  // Correct path for Next.js public folder
-    alt="Kundan Kumar"
-    width={400}
-    height={400}
-    className="rounded-lg border border-white border-opacity-30" // Adjusted border opacity
-  />
-</div>
-
+        <motion.div
+          className="md:w-1/2 flex justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+        >
+          <Image
+            src="/images/hero.jpg"  // Correct path for Next.js public folder
+            alt="Kundan Kumar"
+            width={400}
+            height={400}
+            className="rounded-lg border border-white border-opacity-30"
+          />
+        </motion.div>
       </div>
     </section>
   );
