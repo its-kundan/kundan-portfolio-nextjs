@@ -26,3 +26,7 @@
 26. hobies
 27. add web3, for payment integrations.
 28. add cmd. navigator.
+29. add login sign up page, using google 
+30. add good readme file
+31. design a good 404 page
+32. design a 
