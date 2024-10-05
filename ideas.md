@@ -30,3 +30,4 @@
 30. add good readme file
 31. design a good 404 page
 32. design a 
+33. add email in footer, and more contact reach details
