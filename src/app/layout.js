@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Nav from "./../components/Nav";
-import Footer from "./../components/Footer.jsx";
+// import Nav from "./../components/Nav";
+// import Footer from "./../components/Footer.jsx";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`} // Flex layout with full height
       >
-        <Nav />
+        {/* <Nav /> */}
         <main className="flex-grow pt-16"> {/* Adjust the main content area */}
           {children}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
