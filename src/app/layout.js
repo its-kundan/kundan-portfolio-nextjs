@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`} // Flex layout with full height
       >
+        <Nav />
         <main className="flex-grow pt-16"> {/* Adjust the main content area */}
-          <Nav />
             {children}
           <Footer />
         </main>
