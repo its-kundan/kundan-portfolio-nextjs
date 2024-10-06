@@ -1,0 +1,52 @@
+[
+    {
+      "heading": "Medical Management",
+      "description": "A web app that manages medical data, built using the MERN stack.",
+      "imageURL": "/public/images/medical.jpg",
+      "githubLink": "https://github.com/its-kundan/medical-management",
+      "liveLink": "https://medical-management.live"
+    },
+    {
+      "heading": "Luminosity Drone",
+      "description": "A drone project using OpenCV and Python for light detection, developed for eYantra.",
+      "imageURL": "/images/luminosity-drone.jpg",
+      "githubLink": "https://github.com/its-kundan/luminosity-drone",
+      "liveLink": "https://luminosity-drone.live"
+    },
+    {
+      "heading": "Coin Toss Website",
+      "description": "A basic coin toss website using HTML, CSS, and JavaScript.",
+      "imageURL": "/images/coin-toss.jpg",
+      "githubLink": "https://github.com/its-kundan/coin-toss",
+      "liveLink": "https://coin-toss.live"
+    },
+    {
+      "heading": "Mysterious Message",
+      "description": "A fun web application that generates mysterious messages using randomized text.",
+      "imageURL": "/images/mysterious-message.jpg",
+      "githubLink": "https://github.com/its-kundan/mysterious-message",
+      "liveLink": "https://mysterious-message.live"
+    },
+    {
+      "heading": "Portfolio Website",
+      "description": "A personal developer portfolio website built using Next.js, Tailwind CSS, and JavaScript.",
+      "imageURL": "/images/portfolio-website.jpg",
+      "githubLink": "https://github.com/its-kundan/portfolio-website",
+      "liveLink": "https://portfolio-website.live"
+    },
+    {
+      "heading": "Technoloop Jobs",
+      "description": "A job portal website that optimizes repetitive tasks for tech jobs, using the MERN stack.",
+      "imageURL": "/images/technoloop-jobs.jpg",
+      "githubLink": "https://github.com/its-kundan/technoloop-jobs",
+      "liveLink": "https://technoloop-jobs.live"
+    },
+    {
+      "heading": "Landslide Detection Project",
+      "description": "An ISRO-funded project utilizing machine learning and sensors for landslide detection.",
+      "imageURL": "/images/landslide-detection.jpg",
+      "githubLink": "https://github.com/its-kundan/landslide-detection",
+      "liveLink": "https://landslide-detection.live"
+    }
+  ]
+  

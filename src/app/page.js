@@ -7,14 +7,19 @@ import Project from "@/components/Project";
 import FloatingIcons from "@/components/FloatingIcons";
 import ChatBot from "@/components/ChatBot";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Contact2 from "@/components/Contact2";
+
 
 export default function Home() {
   return (
    <>
    <Hero />
-   <Skills />
-   {/* <Project /> */}
+   <Experience />
+   <Project />
    <FloatingIcons />
+   <Skills />
+   <Contact2 />
    <ChatBot />
    </>
   );
