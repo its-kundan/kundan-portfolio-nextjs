@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Import GitHub and external link icons
 import data from '../../public/data.json'; // Assuming you placed the data.json file in the public folder
+import {Cover} from '@/components/ui/cover';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -55,7 +56,7 @@ const Projects = () => {
   return (
     <section className="p-8 bg-gray-100 mt-10" >
       {/* Search and Filter */}
-      <h1 className="flex justify-center text-3xl" id="project"> Project</h1>
+      <h1 className="flex justify-center text-3xl" id="project"> <Cover> Projects</Cover></h1>
       <div className="flex justify-between mb-6">
         <input
           type="text"
@@ -95,6 +96,8 @@ const Projects = () => {
             <h3 className="text-xl font-bold mt-4">{project.heading}</h3>
             <p className="text-gray-600">{project.description}</p>
             <div className="mt-4 flex justify-center space-x-4">
+
+              
               <a
                 href={project.githubLink}
                 target="_blank"

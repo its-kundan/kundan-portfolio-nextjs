@@ -6,7 +6,7 @@ import { FaSun, FaMoon } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const menuRef = useRef(null); // Reference to the mobile menu
 
   // Function to toggle the mobile menu
