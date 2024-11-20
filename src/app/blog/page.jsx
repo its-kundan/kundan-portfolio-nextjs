@@ -4,6 +4,7 @@ function page() {
   return (
     <div>
       this is the blog page.
+      the blog page
     </div>
   )
 }
