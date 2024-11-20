@@ -17,7 +17,7 @@ export default function HeroSection() {
         I am a Web developer from India.
       </p>
       <div className="mt-6 flex space-x-4 justify-start z-10">
-            <a href="https://drive.google.com/file/d/16GlhniYCCMKEcTJ2hPp1BuwI6AoihzR3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/11L8-Ypkuv-Gx91PnSC3UbHrl5WS0kXoE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-200"
